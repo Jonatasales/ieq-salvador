@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14382f"/>
+      <stop offset=".55" stop-color="#0c2820"/>
+      <stop offset="1" stop-color="#071611"/>
+    </linearGradient>
+    <radialGradient id="sol" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f3d69b"/>
+      <stop offset=".35" stop-color="#e0a85a"/>
+      <stop offset="1" stop-color="#e0a85a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="solo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d5a3a"/>
+      <stop offset="1" stop-color="#1a2e22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#ceu)"/>
+  <circle cx="1180" cy="250" r="280" fill="url(#sol)"/>
+  <path d="M0 620 C280 540 420 700 700 640 C980 580 1200 700 1600 600 L1600 900 L0 900 Z" fill="#12352b"/>
+  <path d="M0 700 C320 640 560 760 900 700 C1180 650 1380 760 1600 690 L1600 900 L0 900 Z" fill="url(#solo)"/>
+  <g transform="translate(690 560)">
+    <path d="M70 150 C40 80 48 40 70 8 C92 40 100 80 70 150 Z" fill="#2f6b45"/>
+    <path d="M70 150 C96 90 130 70 168 78 C130 100 100 120 70 150 Z" fill="#3e8a52"/>
+    <path d="M70 150 C44 96 8 78 -28 90 C18 108 42 126 70 150 Z" fill="#245c38"/>
+    <rect x="66" y="140" width="8" height="46" rx="3" fill="#6d8f4e"/>
+  </g>
+  <g fill="#c4a574" stroke="#8d6a42" stroke-width="2">
+    <path d="M430 640 C470 600 520 590 560 610 C540 640 500 680 450 700 C420 680 410 660 430 640 Z"/>
+    <path d="M500 620 C530 590 575 585 600 605 C575 630 545 655 510 670 Z"/>
+    <path d="M1080 630 C1040 590 990 585 955 610 C980 645 1025 685 1080 700 C1110 675 1105 650 1080 630 Z"/>
+    <path d="M1010 615 C980 585 935 582 910 605 C940 632 975 658 1015 668 Z"/>
+  </g>
+  <g fill="#f3d69b">
+    <ellipse cx="1005" cy="560" rx="7" ry="12"/>
+    <ellipse cx="1024" cy="590" rx="6" ry="11"/>
+    <ellipse cx="990" cy="600" rx="5" ry="9"/>
+  </g>
+</svg>

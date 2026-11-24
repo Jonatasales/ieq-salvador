@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="ceu2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b4638"/>
+      <stop offset="1" stop-color="#071611"/>
+    </linearGradient>
+    <radialGradient id="luz" cx="30%" cy="20%" r="55%">
+      <stop offset="0" stop-color="#f3d69bcc"/>
+      <stop offset="1" stop-color="#f3d69b00"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#ceu2)"/>
+  <rect width="1600" height="900" fill="url(#luz)"/>
+  <path d="M0 520 C240 470 400 560 640 500 C900 430 1100 560 1600 470 L1600 900 L0 900 Z" fill="#0e2c24"/>
+  <g fill="#16382e">
+    <ellipse cx="180" cy="640" rx="26" ry="70"/>
+    <ellipse cx="250" cy="650" rx="22" ry="62"/>
+    <ellipse cx="320" cy="645" rx="24" ry="66"/>
+    <ellipse cx="390" cy="655" rx="20" ry="58"/>
+    <ellipse cx="460" cy="648" rx="23" ry="64"/>
+    <ellipse cx="530" cy="660" rx="18" ry="52"/>
+    <ellipse cx="600" cy="652" rx="22" ry="60"/>
+    <ellipse cx="140" cy="690" rx="20" ry="50"/>
+    <ellipse cx="210" cy="700" rx="18" ry="48"/>
+    <ellipse cx="280" cy="695" rx="20" ry="52"/>
+    <ellipse cx="350" cy="705" rx="16" ry="44"/>
+  </g>
+  <g fill="#102820">
+    <ellipse cx="470" cy="430" rx="18" ry="48"/>
+    <ellipse cx="430" cy="520" rx="16" ry="70"/>
+    <rect x="418" y="575" width="24" height="70" rx="8"/>
+  </g>
+  <g transform="translate(500 640)">
+    <path d="M0 40 C20 0 110 0 140 36 C120 70 20 74 0 40 Z" fill="#6a4a28"/>
+    <ellipse cx="36" cy="28" rx="16" ry="10" fill="#e6c48a"/>
+    <ellipse cx="70" cy="24" rx="18" ry="11" fill="#efd7a4"/>
+    <ellipse cx="104" cy="30" rx="15" ry="9" fill="#d7b56e"/>
+    <path d="M48 18 C70 -8 96 6 88 22 C70 16 58 20 48 18 Z" fill="#8fd0c4"/>
+  </g>
+</svg>

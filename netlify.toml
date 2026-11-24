@@ -1,0 +1,16 @@
+# Publicação estática. A pasta site/ é o site; não há build.
+[build]
+  publish = "site"
+
+[[redirects]]
+  from = "/projeto-de-vida.html"
+  to = "/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
