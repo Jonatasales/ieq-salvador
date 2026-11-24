@@ -14,13 +14,11 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory site
 
 Abra `http://127.0.0.1:4173/`.
 
-## O que ainda é placeholder
+## Contato publicado
 
-Edite `site/js/projeto.js` (`whatsapp`, `pixChave`, `pixCodigo`) e o HTML em `site/index.html` quando a igreja confirmar:
+- Pastores: Pr. Erivelton e Pra. Jocelia Tavares
+- Pedidos: `ieqsalvador.eventos@gmail.com`
+- Pix: CNPJ `62.955.505/0878-58` e o QR Code em `site/img/pix.png`
+- Instagram e YouTube: IEQ Bahia
 
-- nome e foto dos pastores titulares
-- WhatsApp
-- chave Pix, QR Code e Pix Copia e Cola
-- Instagram, Facebook e YouTube da igreja local
-
-Endereço e telefones já publicados vêm de cadastro público (CNPJ/ViaCEP e listas telefônicas) e estão no rodapé.
+Endereço e telefones já publicados vêm de cadastro público (CNPJ/ViaCEP e listas telefônicas) e estão no rodapé. O Facebook da igreja local ainda não foi informado.

@@ -175,18 +175,13 @@ pre {
 .pix-label { margin: 0 0 3px; color: var(--muted); font-size: 0.77rem; }
 .pix-panel .key { margin: 0; color: var(--ink); font-weight: 700; overflow-wrap: anywhere; }
 .qr {
-  display: grid;
-  place-items: center;
-  width: min(100%, 200px);
-  aspect-ratio: 1;
+  width: min(100%, 220px);
   margin: 22px auto;
-  padding: 20px;
-  border: 1px dashed #d8ae6f;
-  border-radius: 5px;
-  color: var(--muted);
-  font-size: 0.88rem;
-  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  background: #fff;
 }
+.qr img { width: 100%; height: auto; }
 .pix-actions { justify-content: center; margin-top: 15px; }
 
 .brand-footer { padding: 18px 0; color: var(--muted); font-size: 0.83rem; }

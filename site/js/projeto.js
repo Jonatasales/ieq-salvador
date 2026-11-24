@@ -1,7 +1,7 @@
 const igreja = {
-  whatsapp: "",
-  pixChave: "",
-  pixCodigo: "",
+  email: "ieqsalvador.eventos@gmail.com",
+  pixChave: "62.955.505/0878-58",
+  pixCodigo: "00020126360014br.gov.bcb.pix0114629555050878585204000053039865802BR5910----------6008SALVADOR62180514ieqvascodagama63044AA6",
 };
 
 const el = (id) => document.getElementById(id);
@@ -23,7 +23,7 @@ function mensagem() {
     nome && "Nome: " + nome,
     selecionados.length && "Meus pedidos:\n" + selecionados.join("\n"),
     adicional && "Outros pedidos:\n" + adicional,
-    "Paz. Segue meu Projeto de Vida 2027 da IEQ Salvador.",
+    "Paz, Pr. Erivelton e Pra. Jocelia. Segue meu Projeto de Vida 2027 da IEQ Salvador.",
   ]
     .filter(Boolean)
     .join("\n\n");
@@ -75,11 +75,9 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
   const texto = mensagemPronta();
   if (!texto) return;
-  if (!igreja.whatsapp) {
-    copiar(texto, "status", "Mensagem copiada. O WhatsApp da IEQ Salvador ainda não está publicado nesta página.");
-    return;
-  }
-  window.location.assign("https://wa.me/" + igreja.whatsapp + "?text=" + encodeURIComponent(texto));
+  const assunto = encodeURIComponent("Projeto de Vida 2027 — IEQ Salvador");
+  const corpo = encodeURIComponent(texto);
+  window.location.assign("mailto:" + igreja.email + "?subject=" + assunto + "&body=" + corpo);
 });
 
 el("copy").addEventListener("click", () => {
@@ -88,18 +86,10 @@ el("copy").addEventListener("click", () => {
 });
 
 el("copy-key").addEventListener("click", () => {
-  if (!igreja.pixChave) {
-    el("pix-status").textContent = "A chave Pix da IEQ Salvador ainda não foi publicada.";
-    return;
-  }
   copiar(igreja.pixChave, "pix-status", "Chave Pix copiada.");
 });
 
 el("copy-pix").addEventListener("click", () => {
-  if (!igreja.pixCodigo) {
-    el("pix-status").textContent = "O código Pix Copia e Cola ainda não foi publicado.";
-    return;
-  }
   copiar(igreja.pixCodigo, "pix-status", "Código Pix copiado.");
 });
 

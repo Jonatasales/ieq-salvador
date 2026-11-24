@@ -1,4 +1,4 @@
-const CACHE = "ieq-salvador-v3";
+const CACHE = "ieq-salvador-v4";
 const ARQUIVOS = [
   "./",
   "./css/base.css",
@@ -8,6 +8,7 @@ const ARQUIVOS = [
   "./img/reflexao.jpg",
   "./img/logo.png",
   "./img/pastores.webp",
+  "./img/pix.png",
   "./favicon.png",
 ];
 
