@@ -1,4 +1,4 @@
-const CACHE = "ieq-salvador-v1";
+const CACHE = "ieq-salvador-v2";
 const ARQUIVOS = [
   "./",
   "./css/base.css",
@@ -6,8 +6,9 @@ const ARQUIVOS = [
   "./js/projeto.js",
   "./img/hero.svg",
   "./img/reflexao.svg",
-  "./img/pastores.svg",
-  "./favicon.svg",
+  "./img/logo.png",
+  "./img/pastores.webp",
+  "./favicon.png",
 ];
 
 self.addEventListener("install", (event) => {
@@ -25,6 +26,12 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   event.respondWith(
-    caches.match(event.request).then((salvo) => salvo || fetch(event.request)),
+    fetch(event.request)
+      .then((resposta) => {
+        const copia = resposta.clone();
+        caches.open(CACHE).then((cache) => cache.put(event.request, copia));
+        return resposta;
+      })
+      .catch(() => caches.match(event.request)),
   );
 });

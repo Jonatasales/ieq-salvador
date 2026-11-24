@@ -65,22 +65,10 @@ header {
   text-decoration: none;
 }
 
-.brand small {
+.brand img {
   display: block;
-  margin-top: 5px;
-  font-size: 0.58rem;
-  letter-spacing: 0.16em;
-  color: var(--muted);
-}
-
-.mark {
-  display: grid;
-  place-items: center;
-  width: 36px;
-  height: 36px;
-  border: 1px solid var(--line);
-  color: var(--sage);
-  font-size: 1.2rem;
+  height: 58px;
+  width: auto;
 }
 
 .bar nav { display: flex; gap: 32px; }
