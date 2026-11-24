@@ -52,23 +52,23 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  min-height: 80px;
+  gap: 32px;
+  min-height: 112px;
+  padding-block: 18px;
 }
 
 .brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 11px;
-  line-height: 1.1;
-  font-weight: 700;
+  display: block;
+  flex: 1 1 320px;
+  max-width: 520px;
+  line-height: 0;
   text-decoration: none;
 }
 
 .brand img {
   display: block;
-  height: 58px;
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 
 .bar nav { display: flex; gap: 32px; }
