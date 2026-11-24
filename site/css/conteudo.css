@@ -219,8 +219,7 @@ pre {
   .hero-details { flex-direction: column; align-items: flex-start; padding-block: 14px 26px; }
   .story, .cards { grid-template-columns: 1fr; }
   .story article { grid-row: 1; }
-  .brand { flex-basis: 100%; max-width: none; }
-  .brand img { width: min(100%, 420px); height: auto; }
+  .brand { flex-basis: auto; max-width: 260px; }
   .portrait { width: min(100%, 420px); margin: auto; }
   .section { padding-block: 52px; }
   .cards { gap: 17px; }
