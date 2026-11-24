@@ -18,6 +18,7 @@ Abra `http://127.0.0.1:4173/`.
 
 - Pastores: Pr. Erivelton e Pra. Jocelia Tavares
 - Pedidos: `ieqsalvador.eventos@gmail.com`
+- O botão “Baixar em PDF” gera no navegador o caderno das seis áreas (`site/js/pdf-projeto.js`, com `pdf-lib` em `site/js/pdf-lib.min.js`).
 - Pix: CNPJ `62.955.505/0878-58` e o QR Code em `site/img/pix.png`
 - Instagram e YouTube: IEQ Bahia
 

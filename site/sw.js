@@ -1,9 +1,11 @@
-const CACHE = "ieq-salvador-v4";
+const CACHE = "ieq-salvador-v5";
 const ARQUIVOS = [
   "./",
   "./css/base.css",
   "./css/conteudo.css",
   "./js/projeto.js",
+  "./js/pdf-projeto.js",
+  "./js/pdf-lib.min.js",
   "./img/avante.jpg",
   "./img/reflexao.jpg",
   "./img/logo.png",
