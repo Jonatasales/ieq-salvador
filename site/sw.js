@@ -1,4 +1,4 @@
-const CACHE = "ieq-salvador-v5";
+const CACHE = "ieq-salvador-v6";
 const ARQUIVOS = [
   "./",
   "./css/base.css",

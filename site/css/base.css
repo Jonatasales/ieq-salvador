@@ -122,21 +122,6 @@ h1, h2 {
 p { margin: 0 0 17px; }
 .intro, .body-text { max-width: 57ch; color: var(--muted); }
 
-.date {
-  margin: 0 0 4px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: #f1d69e;
-}
-.date::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  margin-right: 12px;
-  border-top: 1px solid #d8ae6f;
-  vertical-align: middle;
-}
-
 .actions { display: flex; flex-wrap: wrap; gap: 11px; }
 
 .btn {
