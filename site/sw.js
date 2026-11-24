@@ -5,7 +5,7 @@ const ARQUIVOS = [
   "./css/conteudo.css",
   "./js/projeto.js",
   "./img/avante.jpg",
-  "./img/reflexao.svg",
+  "./img/reflexao.jpg",
   "./img/logo.png",
   "./img/pastores.webp",
   "./favicon.png",
