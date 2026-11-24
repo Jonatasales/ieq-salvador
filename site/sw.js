@@ -1,10 +1,10 @@
-const CACHE = "ieq-salvador-v2";
+const CACHE = "ieq-salvador-v3";
 const ARQUIVOS = [
   "./",
   "./css/base.css",
   "./css/conteudo.css",
   "./js/projeto.js",
-  "./img/hero.svg",
+  "./img/avante.jpg",
   "./img/reflexao.svg",
   "./img/logo.png",
   "./img/pastores.webp",

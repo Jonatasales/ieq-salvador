@@ -215,7 +215,7 @@ pre {
   .wrap { width: calc(100% - 36px); }
   .bar { flex-wrap: wrap; gap: 12px; padding-block: 15px; }
   .bar nav { gap: 20px; }
-  .hero-scene img { aspect-ratio: 1.28; max-height: none; }
+  .hero-scene { width: 100%; }
   .hero-details { flex-direction: column; align-items: flex-start; padding-block: 14px 26px; }
   .story, .cards { grid-template-columns: 1fr; }
   .story article { grid-row: 1; }

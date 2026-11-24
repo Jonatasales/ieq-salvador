@@ -83,19 +83,11 @@ header {
   border-bottom: 1px solid var(--line);
 }
 
-.hero-scene { position: relative; width: min(100%, 1780px); margin: auto; }
+.hero-scene { position: relative; width: min(100%, 1600px); margin: 0 auto; }
 .hero-scene img {
+  display: block;
   width: 100%;
-  max-height: clamp(490px, 48vw, 790px);
-  object-fit: cover;
-  object-position: center 48%;
-}
-.hero-scene::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(0deg, var(--bg), transparent 15%);
+  height: auto;
 }
 
 .hero-details {
